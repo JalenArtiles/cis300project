@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380">
+<rect width="640" height="380" fill="#ecf7fd"/>
+<rect x="0" y="290" width="640" height="90" fill="#d2ebf8"/>
+<rect x="95" y="150" width="90" height="140" fill="#7fb3d5"/>
+<rect x="205" y="105" width="110" height="185" fill="#5fa8d3"/>
+<rect x="335" y="130" width="80" height="160" fill="#7fb3d5"/>
+<rect x="430" y="170" width="120" height="120" fill="#8fc3de"/>
+<rect x="252" y="55" width="18" height="50" fill="#1b4965"/>
+<polygon points="261,30 240,60 282,60" fill="#1b4965"/>
+<circle cx="92" cy="82" r="32" fill="#ffd27d"/>
+<text x="320" y="345" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#1b4965">Destination Page Preview</text>
+</svg>

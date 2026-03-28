@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520">
+<rect width="920" height="520" fill="#dff1fb"/>
+<rect x="45" y="45" width="830" height="430" rx="26" fill="#ffffff" stroke="#8ebbd6" stroke-width="4"/>
+<path d="M120 160 C180 110, 240 120, 280 180 C315 230, 300 290, 245 315 C185 342, 120 305, 110 250 C100 210, 95 185, 120 160Z" fill="#93c5de"/>
+<path d="M345 125 C430 95, 530 110, 555 170 C585 240, 530 275, 500 320 C470 365, 415 382, 355 350 C300 320, 282 252, 300 190 C312 155, 322 135, 345 125Z" fill="#7fb3d5"/>
+<path d="M650 155 C720 115, 810 125, 835 190 C855 245, 815 292, 760 316 C705 340, 645 325, 615 280 C585 235, 600 183, 650 155Z" fill="#9fd3e6"/>
+<circle cx="215" cy="210" r="12" fill="#1b4965"/>
+<circle cx="452" cy="220" r="12" fill="#1b4965"/>
+<circle cx="745" cy="225" r="12" fill="#1b4965"/>
+<path d="M215 210 C300 120, 380 125, 452 220" fill="none" stroke="#1b4965" stroke-width="6" stroke-dasharray="12 10"/>
+<path d="M452 220 C545 315, 660 320, 745 225" fill="none" stroke="#1b4965" stroke-width="6" stroke-dasharray="12 10"/>
+<polygon points="446,216 470,222 454,238" fill="#1b4965"/>
+<polygon points="739,221 763,227 747,243" fill="#1b4965"/>
+<text x="460" y="445" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="#1b4965">Travel smarter, not harder</text>
+</svg>
