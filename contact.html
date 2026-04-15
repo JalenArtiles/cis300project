@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Roam Ready with travel questions and trip planning requests." />
+  <meta name="keywords" content="contact form, travel planning, trip questions" />
+  <meta name="author" content="Jalen Artiles" />
+  <title>Roam Ready | Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Roam Ready</h1>
+      <p class="tagline">A simple contact form for travel questions and planning help.</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="form-box">
+        <h2>Request travel help</h2>
+        <p>
+          This page gives visitors a way to ask for help with planning, budgeting, or choosing a destination.
+          The form uses action="#" because this class project does not require server-side processing.
+        </p>
+
+        <form action="#" method="post">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" required />
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="triptype">Type of Trip</label>
+          <select id="triptype" name="triptype">
+            <option>Budget travel</option>
+            <option>Weekend trip</option>
+            <option>International trip</option>
+            <option>Family vacation</option>
+          </select>
+
+          <label for="message">Questions or Notes</label>
+          <textarea id="message" name="message"></textarea>
+
+          <button type="submit">Submit Request</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Email support: <a href="contact.html">Travel planning contact form</a></p>
+      <p>External link: <a href="https://www.expedia.com/" target="_blank" rel="noopener noreferrer">Trip booking ideas</a></p>
+      <p>&copy; 2026 Roam Ready</p>
+    </footer>
+  </div>
+</body>
+</html>
