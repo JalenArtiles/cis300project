@@ -3,75 +3,83 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="A student travel guidance website with destination ideas, planning tips, and beginner-friendly advice." />
-  <meta name="keywords" content="travel guide, destinations, travel tips, budget travel, vacation planning" />
+  <meta name="description" content="Roam Ready is a travel guidance website with destination ideas, planning tips, a travel video, and contact help for beginner travelers." />
+  <meta name="keywords" content="travel guide, trip planning, destinations, budget travel, beginner travel tips" />
   <meta name="author" content="Jalen Artiles" />
-  <title>Roam Ready | Smart Travel Guidance</title>
+  <title>Roam Ready Travel Guidance | Home</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#maincontent">Skip to main content</a>
   <div id="wrapper">
     <header>
-      <h1>Roam Ready</h1>
-      <p class="tagline">Simple travel guidance for first-time and budget-conscious travelers.</p>
+      <h1 class="logo-title">Roam Ready Travel Guidance</h1>
+      <p class="tagline">Simple trip planning help for students, first-time travelers, and budget-conscious explorers.</p>
     </header>
 
-    <nav>
+    <nav aria-label="Main navigation">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Destinations</a></li>
-        <li><a href="#">Tips</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a class="active" aria-current="page" href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="tips.html">Travel Tips</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
-    <main>
+    <main id="maincontent">
       <section class="hero">
-        <img src="hero-map.svg" alt="Illustrated world map with travel route icons" />
+        <img src="images/hero-map.svg" alt="Illustrated world map with routes and travel icons for a global trip planning theme" />
         <div class="hero-text">
           <h2>Plan better trips with less stress</h2>
           <p>
-            This website helps travelers compare destinations, build realistic budgets,
-            and remember the small details that make a trip smoother.
+            Roam Ready is a student-created travel guidance website designed to help visitors feel more confident before booking a trip.
+            The website gives useful information about destinations, travel organization, budgeting, and where to find reliable travel resources.
           </p>
-          <a class="button" href="https://www.usa.gov/travel" target="_blank" rel="noopener noreferrer">Travel planning resource</a>
+          <p>
+            The goal is not to overwhelm users with too much information. Instead, each page is focused, readable, and built to help travelers make smart first decisions.
+          </p>
+          <div class="button-row">
+            <a class="button" href="tips.html">Watch the travel planning video</a>
+            <a class="button secondary" href="https://www.usa.gov/travel" target="_blank" rel="noopener noreferrer">Official travel planning resource</a>
+          </div>
         </div>
       </section>
 
-      <section class="cards">
+      <section class="feature-grid">
         <article class="card">
-          <img src="tokyo-card.svg" alt="Illustration representing Tokyo travel highlights" />
-          <h3>Featured destination ideas</h3>
+          <img src="images/tokyo-card.svg" alt="Illustration representing a destination skyline and city travel planning" />
+          <h3>Destination comparison</h3>
           <p>
-            Explore sample destination pages with climate notes, budget expectations,
-            transportation ideas, and top attractions.
+            Visitors can compare destinations by season, budget level, and travel experience so they can quickly choose a place that fits their goals.
           </p>
         </article>
 
         <article class="card">
-          <img src="checklist-card.svg" alt="Illustration of a travel checklist" />
-          <h3>Helpful travel tips</h3>
+          <img src="images/checklist-card.svg" alt="Illustration of a checklist used to represent organized trip planning" />
+          <h3>Helpful planning tips</h3>
           <p>
-            Learn what to pack, how to organize documents, and how to avoid common
-            first-trip mistakes before you leave.
+            The travel tips page includes practical advice and a short video so users can understand the basics of planning before they leave.
           </p>
         </article>
       </section>
 
-      <section class="highlights">
-        <h2>What this website includes</h2>
-        <ul>
-          <li>Destination overviews for popular cities and regions</li>
-          <li>Budget, packing, and transportation advice</li>
-          <li>A future contact form for questions and trip planning requests</li>
+      <section class="callout">
+        <h2>What visitors will find on this website</h2>
+        <ul class="checklist">
+          <li>Destination ideas for different budgets and travel styles</li>
+          <li>Simple planning tips about documents, packing, and timing</li>
+          <li>Reliable outside links for official travel information</li>
+          <li>A contact form for questions and trip planning requests</li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <p>Email: <a href="contact.html">Contact page coming soon</a></p>
+      <p>Email contact: <strong>hello@roamready.example</strong></p>
+      <p>Use the <a href="contact.html">contact page form</a> for questions and trip help.</p>
       <p>External link: <a href="https://travel.state.gov/" target="_blank" rel="noopener noreferrer">U.S. travel information</a></p>
-      <p>&copy; 2026 Roam Ready</p>
+      <p>&copy; 2026 Roam Ready Travel Guidance</p>
     </footer>
   </div>
 </body>

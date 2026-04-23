@@ -3,45 +3,47 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Travel planning tips about packing, budgeting, and staying organized before a trip." />
-  <meta name="keywords" content="travel tips, packing list, travel budget, travel video" />
+  <meta name="description" content="Learn basic travel planning tips and watch a short travel video on staying organized before a trip." />
+  <meta name="keywords" content="travel tips, packing, budget planning, travel video, organization" />
   <meta name="author" content="Jalen Artiles" />
-  <title>Roam Ready | Travel Tips</title>
+  <title>Roam Ready Travel Guidance | Travel Tips</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#maincontent">Skip to main content</a>
   <div id="wrapper">
     <header>
-      <h1>Roam Ready</h1>
-      <p class="tagline">Simple travel tips that make planning feel less overwhelming.</p>
+      <h1 class="logo-title">Roam Ready Travel Guidance</h1>
+      <p class="tagline">Practical tips that make traveling feel easier and more organized.</p>
     </header>
 
-    <nav>
+    <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="destinations.html">Destinations</a></li>
-        <li><a class="active" href="tips.html">Tips</a></li>
+        <li><a class="active" aria-current="page" href="tips.html">Travel Tips</a></li>
+        <li><a href="resources.html">Resources</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
-    <main>
-      <section class="split-layout">
-        <img src="images/checklist-card.svg" alt="Illustration of a travel planning checklist" />
-        <div class="text-block">
-          <h2>Three simple tips before every trip</h2>
-          <ol>
-            <li>Set a realistic budget before buying flights or event tickets.</li>
-            <li>Keep your ID, confirmation emails, and hotel details in one place.</li>
-            <li>Pack around the weather and your daily plans instead of overpacking.</li>
+    <main id="maincontent">
+      <section class="two-column">
+        <img src="images/checklist-card.svg" alt="Illustration of a travel checklist used to represent packing and preparation" />
+        <div class="text-panel">
+          <h2>Three simple habits that improve almost every trip</h2>
+          <ol class="checklist">
+            <li>Set a realistic budget before buying flights, event tickets, or extra activities.</li>
+            <li>Keep your ID, reservation details, and confirmation emails together in one easy place.</li>
+            <li>Pack for your schedule and the weather instead of packing too much.</li>
           </ol>
         </div>
       </section>
 
-      <section class="video-box">
+      <section class="video-panel">
         <h2>Quick planning video</h2>
         <p>
-          This short video is included to give visitors a visual summary of what to focus on before a trip. It reinforces the written tips in a more engaging way.
+          This page includes a video using the HTML5 video tag. The video gives the page more variety and helps visual learners understand the planning process more easily.
         </p>
         <video controls>
           <source src="media/travel-planning-tips.mp4" type="video/mp4" />
@@ -51,9 +53,10 @@
     </main>
 
     <footer>
-      <p>Email support: <a href="contact.html">Use the contact page form</a></p>
+      <p>Email contact: <strong>hello@roamready.example</strong></p>
+      <p>Use the <a href="contact.html">contact page form</a> for questions and trip help.</p>
       <p>External link: <a href="https://www.tsa.gov/travel/travel-tips" target="_blank" rel="noopener noreferrer">Airport travel tips</a></p>
-      <p>&copy; 2026 Roam Ready</p>
+      <p>&copy; 2026 Roam Ready Travel Guidance</p>
     </footer>
   </div>
 </body>

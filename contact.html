@@ -3,34 +3,35 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Contact Roam Ready with travel questions and trip planning requests." />
-  <meta name="keywords" content="contact form, travel planning, trip questions" />
+  <meta name="description" content="Contact Roam Ready using a travel planning form with multiple fields for questions, destination interest, and budget notes." />
+  <meta name="keywords" content="contact form, travel questions, trip planning form, travel help" />
   <meta name="author" content="Jalen Artiles" />
-  <title>Roam Ready | Contact</title>
+  <title>Roam Ready Travel Guidance | Contact</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#maincontent">Skip to main content</a>
   <div id="wrapper">
     <header>
-      <h1>Roam Ready</h1>
-      <p class="tagline">A simple contact form for travel questions and planning help.</p>
+      <h1 class="logo-title">Roam Ready Travel Guidance</h1>
+      <p class="tagline">Use the form below to request travel help, destination ideas, or budgeting advice.</p>
     </header>
 
-    <nav>
+    <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="destinations.html">Destinations</a></li>
-        <li><a href="tips.html">Tips</a></li>
-        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="tips.html">Travel Tips</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a class="active" aria-current="page" href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
-    <main>
-      <section class="form-box">
-        <h2>Request travel help</h2>
+    <main id="maincontent">
+      <section class="form-panel">
+        <h2>Request travel planning help</h2>
         <p>
-          This page gives visitors a way to ask for help with planning, budgeting, or choosing a destination.
-          The form uses action="#" because this class project does not require server-side processing.
+          This page includes the required form for the project. The form uses action="#" because server-side processing was not required for this assignment.
         </p>
 
         <form action="#" method="post">
@@ -40,13 +41,19 @@
           <label for="email">Email Address</label>
           <input type="email" id="email" name="email" required />
 
+          <label for="destination">Destination Interest</label>
+          <input type="text" id="destination" name="destination" />
+
           <label for="triptype">Type of Trip</label>
           <select id="triptype" name="triptype">
-            <option>Budget travel</option>
             <option>Weekend trip</option>
+            <option>Budget travel</option>
             <option>International trip</option>
             <option>Family vacation</option>
           </select>
+
+          <label for="budget">Estimated Budget</label>
+          <input type="text" id="budget" name="budget" />
 
           <label for="message">Questions or Notes</label>
           <textarea id="message" name="message"></textarea>
@@ -54,12 +61,19 @@
           <button type="submit">Submit Request</button>
         </form>
       </section>
+
+      <section class="address-box">
+        <h2>Contact details</h2>
+        <p>Email contact used on this website: <strong>hello@roamready.example</strong></p>
+        <p class="small-note">For this class project, visitors are directed to the form above instead of using a mailto link.</p>
+      </section>
     </main>
 
     <footer>
-      <p>Email support: <a href="contact.html">Travel planning contact form</a></p>
+      <p>Email contact: <strong>hello@roamready.example</strong></p>
+      <p>Use the <a href="contact.html">contact page form</a> for questions and trip help.</p>
       <p>External link: <a href="https://www.expedia.com/" target="_blank" rel="noopener noreferrer">Trip booking ideas</a></p>
-      <p>&copy; 2026 Roam Ready</p>
+      <p>&copy; 2026 Roam Ready Travel Guidance</p>
     </footer>
   </div>
 </body>
